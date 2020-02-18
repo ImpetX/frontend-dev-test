@@ -1,0 +1,20 @@
+{
+  "name": "frontend-test",
+  "version": "1.0.0",
+  "description": "A technical test to give front-end candidates for a remote or on-site test.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx parcel index.html",
+    "build": "npx parcel build index.html",
+    "test": "npx jest ./tests"
+  },
+  "author": "Co-op Digital",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^25.1.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
